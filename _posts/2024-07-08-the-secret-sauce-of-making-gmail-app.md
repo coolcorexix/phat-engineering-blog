@@ -56,7 +56,10 @@ chrome.runtime.onInstalled.addListener(async (details) => {
     id: 1,
     priority: 1,
     condition: {
-      urlFilter: "https://mail.google.com/mail/*",
+      urlFilter: "https://mail.google.com/mail/u/0/",
+      //* if CSP get thrown again, try whitelist all resource type to catch the first request 
+      //* whatever type it is the url has to be exact match
+      resourceTypes: ["main_frame", "sub_frame", "xmlhttprequest"],
     },
     action: {
       type: "modifyHeaders",
