@@ -33,4 +33,5 @@ multiple apps/services can be built and deployed
     In the past, there is a huge benefit of loose coupling between repos: with multiple versions of a uikit, 
 the repos that does not need the new version won't have to update commit hash and put in the adaptation 
 effort which is sensible. 
-How do we keep that after the change? Should we consider sacrificing this benefit for a leaner setup? is this the right trade off?    
+How do we keep that after the change? Should we consider sacrificing this benefit for a leaner setup? is this the right trade off?   
+As I found out, according to Dan Luu he thinks this benefits is dressed as disadvantage by allowing dependee to be out-dated so much it create huge tech debt for the future: `https://danluu.com/monorepo/#cross-project-changes` 

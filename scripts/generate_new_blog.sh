@@ -11,7 +11,9 @@ file_name=$(echo "$1" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
 
 # Add the file extension
 file_name="$file_name.md"
-
+# Generate the current date in the format YYYY-MM-DD
+post_current_date=$(date +"%Y-%m-%d")
+file_name="$post_current_date-$file_name"
 # Create the file in the _posts folder
 touch "_posts/$file_name"
 echo "New file created: _posts/$file_name"
@@ -22,7 +24,7 @@ current_date=$(date +"%Y-%m-%d %H:%M:%S")
 # Add a header to the new file
 echo "---" >> "_posts/$file_name"
 echo "layout: post" >> "_posts/$file_name"
-echo "title: $file_name" >> "_posts/$file_name"
+echo "title: $1" >> "_posts/$file_name"
 echo "date: $current_date +0700" >> "_posts/$file_name"
 echo "categories: []" >> "_posts/$file_name"
 echo "---" >> "_posts/$file_name"

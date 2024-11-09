@@ -1,6 +1,6 @@
 ---
 layout: post
-title: my_favorite_bloggers.md
+title: My favorite bloggers
 date: 2024-09-03 11:29:18 +0700
 categories: []
 ---
