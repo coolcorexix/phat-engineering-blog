@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I came up with the best kind of automation tool, thanks to a boring must-do task
+title: How I came up with the best automation tool I ever made, thanks to a boring must-do task
 date: 2024-11-26 11:48:02 +0700
 categories: []
 ---
