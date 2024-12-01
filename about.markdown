@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-[here](https://nemothecollector.dev)
+Pshhh... [here](https://nemothecollector.dev)
