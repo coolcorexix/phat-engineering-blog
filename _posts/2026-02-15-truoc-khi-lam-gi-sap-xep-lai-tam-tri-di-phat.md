@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "trước khi làm gì sắp xếp lại tâm trí đi Phát"
-date: 2026-02-15 16:30:00 +0700
+date: 2026-02-15 00:00:00 +0700
 categories: tao
 image: /assets/images/quy-nhon-2026.jpeg
 ---
