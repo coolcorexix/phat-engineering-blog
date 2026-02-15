@@ -23,3 +23,5 @@ ngoài mấy cái đó thì nó như nào? Hay từ những pháp này thôi mì
 - Lặng nghe và trau chuốt lời nói với vợ con trong bữa cơm cuối năm
 
 tất cả đã được bao gồm trong tour Trải nghiệm trái đất. Sau 30 năm, các khuôn mẫu của con đường riêng đã dần lộ ra đầy đủ, hãy cứ đi và vui chơi nhưng để ý chân mình đang ở đâu.
+
+![cover](/assets/images/quy-nhon-2026.jpeg)

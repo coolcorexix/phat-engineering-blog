@@ -8,7 +8,8 @@
       "Bash(gh run list:*)",
       "Bash(gh workflow run:*)",
       "Bash(gh run rerun:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix post date to avoid future date issue\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix post date to avoid future date issue\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
     ]
   },
   "enabledMcpjsonServers": [
