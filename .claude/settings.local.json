@@ -14,5 +14,6 @@
   },
   "enabledMcpjsonServers": [
     "threads"
-  ]
+  ],
+  "enableAllProjectMcpServers": true
 }
