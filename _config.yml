@@ -30,6 +30,11 @@ twitter:
   username: phamhuyphat
   card: summary
 github_username: coolcorexix
+newsletter:
+  # Google Form "Newsletter - Phat Or Nemo"; responses land in the
+  # "Newsletter subscribers - Phat Or Nemo" sheet in Drive.
+  form_id: 1FAIpQLSdclIEX7-Se7uLXREaaCt88_9SfNERDxbf9BcrK30M2_VKPtg
+  email_entry: entry.309491348
 social:
   name: Pham Huy Phat
   links:
