@@ -1,0 +1,28 @@
+{%- assign others = site.posts | where_exp: "p", "p.url != page.url" -%}
+{%- if others.size > 0 -%}
+<style>
+  .read-more { margin: 40px 0 0; }
+  .read-more-heading { margin: 0 0 8px; font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #888; }
+  .read-more-list { margin: 0; list-style: none; }
+  .read-more-list li { padding: 16px 0; border-bottom: 1px solid #eee; }
+  .read-more-list a { display: block; color: inherit; text-decoration: none; }
+  .read-more-list a:hover .read-more-title { color: #2f9e44; }
+  .read-more-title { display: block; font-size: 18px; font-weight: 600; line-height: 1.35; }
+  .read-more-excerpt { display: block; margin-top: 4px; color: #666; font-size: 15px; line-height: 1.5; }
+  .read-more-date { display: block; margin-top: 6px; color: #999; font-size: 13px; }
+</style>
+<section class="read-more">
+  <h2 class="read-more-heading">Read more from me</h2>
+  <ul class="read-more-list">
+    {%- for p in others limit: 3 -%}
+    <li>
+      <a href="{{ p.url | relative_url }}">
+        <span class="read-more-title">{{ p.title | escape }}</span>
+        <span class="read-more-excerpt">{{ p.excerpt | strip_html | strip_newlines | truncatewords: 28 }}</span>
+        <span class="read-more-date">{{ p.date | date: "%b %-d, %Y" }}</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
