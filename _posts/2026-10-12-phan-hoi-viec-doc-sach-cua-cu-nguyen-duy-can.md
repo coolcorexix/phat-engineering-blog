@@ -8,7 +8,7 @@ image: /assets/images/viec-doc-sach-cover.jpg
 
 ## Cách đọc sách
 
-Trước tiên hết, cháu thực sự cảm kích khi tìm được mục “Cách đọc sách” của cụ, cháu ấn tượng và ghi nhớ sâu sắc những ý sau:
+Trước tiên hết, cháu xin dành lời cảm kích với tác phẩm "Tôi tự học" của cụ, cháu ấn tượng và ghi nhớ sâu sắc những ý sau:
 
 Đọc sách nên được đối xử như một hành động tôn nghiêm. Trong khung cảnh yên  lặng, được một mình hoặc vây quanh bởi những con người cũng tôn trọng việc đọc sách, cháu cảm thấy tinh thần mình đang đi lên, từ đó dễ kết nối, sờ chạm vào các khái niệm, tư tưởng theo cách rõ ràng hơn. Ở thời đại của cháu, việc đọc sách không chỉ đơn thuần là bồi bổ kiến thức mà là còn để giải độc cơ thể khỏi vô số hưng phấn nhanh trên cái gọi là Internet.
 
